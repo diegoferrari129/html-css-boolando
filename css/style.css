@@ -30,7 +30,18 @@ body{
     border: 5px solid blue;
 }
 
-/* specifics */
+.col-32{
+    width: calc(97% / 3);
+    background-color:green;
+    height: 60px;
+    border: 5px solid blue;
+}
+
+.gap-1{
+    gap: 1%;
+}
+
+/* common */
 header{
     background-color: orange;
     margin-bottom: 50px;
@@ -61,3 +72,4 @@ ul li a{
 .py-15{
     padding: 15px 0;
 }
+
