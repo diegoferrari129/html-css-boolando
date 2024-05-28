@@ -74,6 +74,14 @@ ul li a{
 .label{
     padding: 10px;
     color: white;
+    display: inline-block;
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+}
+
+.content{
+    position: relative;
 }
 
 /* style */
@@ -103,4 +111,8 @@ ul li a{
 
 .bg-green{
     background-color: green;
+}
+
+.m-left{
+    margin-left: 60px;
 }
