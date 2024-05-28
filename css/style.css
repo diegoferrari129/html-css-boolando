@@ -53,7 +53,7 @@ ul{
 
 ul li{
     display: inline-block;
-    margin-right: 3px;
+    margin-right: 4px;
 }
 
 ul li a{
@@ -63,7 +63,8 @@ ul li a{
 
 /* specifics */
 .menu-header{
-    font-size: 15px;
+    font-size: 12px;
+    font-weight: 100;
     margin-top: 3px;
 }
 
@@ -76,9 +77,10 @@ ul li a{
     color: white;
     display: inline-block;
     position: absolute;
-    bottom: 60px;
+    bottom: 58px;
     left: 0;
-    font-size: 13px;
+    font-size: 12px;
+    font-weight: 100;
 }
 
 .heart{
@@ -88,10 +90,23 @@ ul li a{
     position: absolute;
     top: 22px;
     right: 0;
+    cursor: pointer;
+}
+
+.heart:hover{
+    color: red;
 }
 
 .content{
     position: relative;
+}
+
+.content:hover .d-block{
+    display: none;
+}
+
+.content:hover .d-none{
+    display: block;
 }
 
 /* style */
@@ -124,5 +139,13 @@ ul li a{
 }
 
 .m-left{
-    margin-left: 57px;
+    margin-left: 53px;
+}
+
+.d-block{
+    display: block;
+}
+
+.d-none{
+    display: none;
 }
