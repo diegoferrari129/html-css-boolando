@@ -7,3 +7,47 @@
 body{
     font-family: Arial, sans-serif;
 }
+
+.container-full{
+    max-width: 100%;
+}
+
+/* layout */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-33{
+    width: calc(100% / 3);
+    background-color: brown;
+    height: 100px;
+}
+
+/* specifics */
+ul{
+    list-style-type: none;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+/* style */
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
