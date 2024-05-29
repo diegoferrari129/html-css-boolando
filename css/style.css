@@ -38,8 +38,10 @@ body{
 /* common */
 header{
     background-color: orange;
-    margin-bottom: 30px;
     color: white;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
 }
 
 footer{
@@ -116,6 +118,7 @@ i {
 
 .content{
     position: relative;
+    
 }
 
 .content:hover .d-block{
@@ -179,3 +182,6 @@ i {
     padding: 5px 0;
 }
 
+.m-top-80{
+    margin-top: 80px;
+}
