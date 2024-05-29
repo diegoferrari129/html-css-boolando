@@ -72,7 +72,7 @@ span{
 /* specifics */
 .menu-header{
     font-size: 12px;
-    font-weight: 100;
+    font-weight: 100; 
     margin-top: 3px;
 }
 
@@ -82,7 +82,7 @@ span{
 
 .icons{
     font-size: 11px;
-    margin: 4px 10px 0 0;
+    margin: 5px 10px 0 0;
 }
 
 i {
